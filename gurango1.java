@@ -10,13 +10,16 @@ class gurango1{
 	}
 
 	static void add(int no3, double no1){
-	System.out.println("The sum of " +(int)no3 + " and " + (int)no1 + ": "+ (no3+no1));
+	double sum = no3+no1;
+	//System.out.println("The sum of " +(int)no3 + " and " + (int)no1 + ": "+ (no3+no1));
+	return sum;
 	}
 	public static void main (String[] args){
 		System.out.print("Enter 1st number: "); double no1 = input.nextDouble();
 		System.out.print("Enter 2nd number: "); double no2 = input.nextDouble();
 		System.out.print("Enter 3rd number: "); int no3 = input.nextInt();
 		System.out.println();
+		System.out.println("The sum of "+ no3+ " and" + no1 + ": ");
 
 		add(no3, no1);
 		add();
