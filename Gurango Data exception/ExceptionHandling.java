@@ -5,7 +5,6 @@ class ExceptionHandling{
     static DecimalFormat f = new DecimalFormat ("##0.00");
     public static void main(String[]args){
         double quo = 0;
-        int code;
 
 //maximum of 3 exception
     try {
