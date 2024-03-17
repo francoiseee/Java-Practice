@@ -12,7 +12,7 @@ class ExceptionHandling{
         System.out.print("Enter 1st whole number: "); int no1 = input.nextInt();
         System.out.print("Enter 2nd whole number: "); int no2 = input.nextInt();
         checking(no1,no2);
-        quo = no1/no2;
+        quo = (double) no1/no2;
         System.out.println("Quotient: " + quo);
     } 
     // can handle all exception
